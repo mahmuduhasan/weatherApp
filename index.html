@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+      crossorigin="anonymous"
+    />
+    <title>Weather API</title>
+    <style>
+      .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid gray;
+        height: 260px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather APP!</h1>
+      <input type="text" placeholder="Enter City" id="city">
+      <input type="button" value="Search" id="search">
+      <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
